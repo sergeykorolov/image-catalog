@@ -1,0 +1,39 @@
+@import "./scss/style";
+
+.app-wrapper {
+  max-width: 1402px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  min-width: 550px;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+  &__input {
+    width: 250px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  button {
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: cadetblue;
+    &:disabled {
+      cursor: default;
+      background-color: #bdbdbd;
+    }
+  }
+  &__error-message {
+    position: absolute;
+    color: red;
+    top: 42px;
+    left: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+.img_block {
+  width: 215px;
+  margin: 10px 0 0 10px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  overflow: hidden;
+  img {
+    height: auto;
+    width: 213px;
+  }
+}

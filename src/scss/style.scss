@@ -1,0 +1,24 @@
+// обнуление, общие параметры
+@import "null-style";
+
+// Font Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap&subset=cyrillic-ext');
+
+body {
+  //color: #000000;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  //background-color: #24282f;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+//ОБОЛОЧКА
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
